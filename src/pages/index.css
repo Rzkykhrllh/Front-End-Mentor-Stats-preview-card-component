@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#mySection{
+    background-color: #0A0C1B;
+}
+
+.card{
+    width: 1122px;
+    height: 454px;
+
+    background: rgba(28, 25, 56, 1);
+
+    /* @apply bg-blue-800; */
+}
+
+.kiri{
+    padding: 70px;
+}
+
+
+h2{
+    font-family: Inter;
+
+    @apply text-white font-bold text-2xl;
+}
+
+h2+p{
+    @apply text-gray-300 text-xs;
+}
