@@ -3,7 +3,7 @@ import CardPages from './pages';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-red-900 App">
       <CardPages />
     </div>
   );

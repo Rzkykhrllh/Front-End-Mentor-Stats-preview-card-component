@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       maxWidth: {
         "komunis": "582px"
-      }
+      },
     },
   },
   variants: {
