@@ -37,7 +37,7 @@ function CardPages() {
         <section className={styles.section} id="mySection">
 
             <div className="flex flex-col m-6 card md:flex-row rounded-3xl ">
-                <div className="order-2 w-full my-auto py-auto md:max-w- komunis md:px-16 md:order-first">
+                <div className="order-2 w-full my-auto py-auto md:max-w-xl md:px-16 md:order-first">
                     <div>
                         <h1 className="px-8 mb-4 text-2xl font-bold text-center text-white md:text-4xl md:text-left mt-9 md:mb-8">Get <span className="text-purple-700 font">insights</span> that help
                             your business grow.</h1>
